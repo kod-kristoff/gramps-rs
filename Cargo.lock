@@ -192,6 +192,13 @@ dependencies = [
 [[package]]
 name = "gramps-core"
 version = "0.1.0"
+dependencies = [
+ "gramps-database",
+]
+
+[[package]]
+name = "gramps-database"
+version = "0.1.0"
 
 [[package]]
 name = "gramps-rs"
